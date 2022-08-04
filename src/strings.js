@@ -1,26 +1,27 @@
-function sayHello (string) {
-  // your code here
+const sayHello = world => {
+return 'Hello, ' +  world + '!';
+};
+ 
+const uppercase = abc => {
+  return abc.toUpperCase();
 };
 
-function uppercase (string) {
-  // your code here
+const lowercase = abc => {
+  return abc.toLowerCase();
 };
 
-function lowercase (string) {
-  // your code here
+const countCharacters = fsfsgsfdg => {
+  return fsfsgsfdg.length;
 };
 
-function countCharacters (string) {
-  // your code here
+const firstCharacter = ABC => {
+  return ABC.charAt(0);
 };
 
-function firstCharacter (string) {
-  // your code here
+const firstCharacters = (sd32fg45, n) => {
+  return sd32fg45.substring (0, n);
 };
 
-function firstCharacters (string, n) {
-  // your code here
-};
 
 module.exports = {
   sayHello,
